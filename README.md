@@ -11,7 +11,7 @@
 -XX:MaxPermSize=10M  (JDK 1.6之前有效) <br>
 -Xlog:gc*    //打印jvm内存日志 <br>
 
-##### gclib
+#### gclib
 -XX:PermSize=10M 永久代 (JDK 1.6之前有效) <br>
 -XX:MaxPermSize=10M  (JDK 1.6之前有效) <br>
 -Xlog:gc*    //打印jvm内存日志 <br>
