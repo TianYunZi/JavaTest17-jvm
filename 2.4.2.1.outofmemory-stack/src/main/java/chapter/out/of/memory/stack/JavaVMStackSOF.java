@@ -23,11 +23,12 @@ public class JavaVMStackSOF {
 
     public static void main(String[] args) {
         var javaVMStackSOF = new JavaVMStackSOF();
-        try {
-            javaVMStackSOF.stackLeak();
-        } catch (Throwable e) {
-            System.out.println("stack length:" + javaVMStackSOF.stackLength);
-            throw e;
-        }
+//        try {
+//            javaVMStackSOF.stackLeak();
+//        } catch (Throwable e) {
+//            System.out.println("stack length:" + javaVMStackSOF.stackLength);
+//            throw e;
+//        }
+        javaVMStackSOF.stackOverLeakByThread();
     }
 }
